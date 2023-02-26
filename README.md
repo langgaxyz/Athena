@@ -6,4 +6,6 @@ drop(int itemid) || drop(int itemid, int amount)
 place(int x, int y)
 break(int x, int y)
 wrench(int x, int y)
+move(int radiusx, int radiusy)
+findPath(int x, int y)
 ```
