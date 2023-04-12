@@ -6,6 +6,7 @@
 * [sendRawPacket](#sendrawpacket)
 * [say](#say)
 * [connect](#connect)
+* [collect](#collect)
 * [remove](#remove)
 * [place](#placetile)
 * [wrenchTile](#wrench)
@@ -14,6 +15,7 @@
 * [getBotStatus](#getstatus)
 * [wear](#wearitem)
 * [drop](#dropitem)
+
 ## getbot
 `GetBot(string growid)`
 
@@ -138,6 +140,13 @@ bot:punch(0, 0)
 `Type :`
 `drop(int itemid)`
 `drop(int itemid, int amount)`
+
+
+## Collect
+`collect(int range)`
+`collect(int range, itemid)`
+
+
 
 
 
