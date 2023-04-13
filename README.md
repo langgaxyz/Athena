@@ -2,6 +2,7 @@
 * [GetBot](#getbot)
 * [findPath](#findpath)
 * [move](#movebot)
+* [getMs](#getms)
 * [sendPacket](#sendpacket)
 * [sendRawPacket](#sendrawpacket)
 * [say](#say)
@@ -144,7 +145,18 @@ bot:punch(0, 0)
 
 ## Collect
 `collect(int range)`
+
+
+
 `collect(int range, itemid)`
+
+
+
+## getms
+```lua
+bot = getBot("athena")
+bot:getMs() -- console log
+```
 
 
 
