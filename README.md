@@ -141,8 +141,10 @@ bot:punch(0, 0)
 ## dropitem
 `Type :`
 `drop(int itemid)`
-`drop(int itemid, int amount)`
 
+
+
+`drop(int itemid, int amount)`
 
 ## Collect
 `collect(int range)`
@@ -163,6 +165,11 @@ bot:getMs() -- console log
 
 ## LogToConsole
 `LogToConsole(string message)`
+
+Example:
+```lua
+LogToConsole("athenax")
+```
 
 
 
