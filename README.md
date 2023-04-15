@@ -2,7 +2,6 @@
 * [GetBot](#getbot)
 * [findPath](#findpath)
 * [move](#movebot)
-* [getMs](#getms)
 * [sendPacket](#sendpacket)
 * [sendRawPacket](#sendrawpacket)
 * [say](#say)
@@ -16,6 +15,8 @@
 * [getBotStatus](#getstatus)
 * [wear](#wearitem)
 * [drop](#dropitem)
+* [getMs](#getms)
+* [LogToConsole](#logtoconsole)
 
 ## getbot
 `GetBot(string growid)`
@@ -157,6 +158,11 @@ bot:punch(0, 0)
 bot = getBot("athena")
 bot:getMs() -- console log
 ```
+
+
+
+## LogToConsole
+`LogToConsole(string message)`
 
 
 
