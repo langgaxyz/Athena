@@ -13,6 +13,8 @@
 * [punch](#punchtile)
 * [autoFarm](#autofarming)
 * [getBotStatus](#getstatus)
+* [getTile](#gettile)
+* [webhookSend](#webhooksent)
 * [wear](#wearitem)
 * [drop](#dropitem)
 * [getMs](#getms)
